@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 sudo apt install -y git clang curl libssl-dev llvm libudev-dev && curl https://sh.rustup.rs -sSf | sh && source ~/.cargo/env && rustup default stable && rustup update && rustup update nightly && rustup target add wasm32-unknown-unknown --toolchain nightly && wget https://builds.gear.rs/gear-nightly-linux-x86_64.tar.xz && tar xvf gear-nightly-linux-x86_64.tar.xz && rm gear-nightly-linux-x86_64.tar.x && chmod +x $HOME/gear-node && && printf "[Unit] 
 Description=Gear Node 
