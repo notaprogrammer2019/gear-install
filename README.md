@@ -18,4 +18,5 @@ Official [github](https://github.com/gear-tech) and official [install node](http
    
     journalctl -u gear-node -f
     
-   4. [Telemetry](https://telemetry.gear-tech.io/)
+   4. [Telemetry](https://telemetry.gear-tech.io/). Example: 
+![image](https://user-images.githubusercontent.com/47750617/158787589-be2b293a-4b14-4187-9194-6ce54af6725d.png)
