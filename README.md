@@ -17,3 +17,5 @@ Official [github](https://github.com/gear-tech) and official [install node](http
    3. Logs: 
    
     journalctl -u gear-node -f
+    
+   4. [Telemetry](https://telemetry.gear-tech.io/)
