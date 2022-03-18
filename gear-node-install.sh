@@ -10,7 +10,7 @@ User=root
 WorkingDirectory=/root/ 
 ExecStart=/root/gear-node \
     --telemetry-url 'ws://telemetry-backend-shard.gear-tech.io:32001/submit 0' \
-    --name CHOOSEYOURNAME \
+    --name $CHOOSEYOURNAME \
     --execution wasm \
     --log runtime
 Restart=always 
