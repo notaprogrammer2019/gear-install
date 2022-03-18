@@ -12,7 +12,7 @@ Official [github](https://github.com/gear-tech) and official [install node](http
    
     nano /etc/systemd/system/gear-node.serive
     ..
-    --name CHOOSEYOURNAME 
+    --name $CHOOSEYOURNAME 
     ..     
    3. Logs: 
    
